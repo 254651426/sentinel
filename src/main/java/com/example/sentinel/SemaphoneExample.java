@@ -7,7 +7,7 @@ import java.util.concurrent.Semaphore;
 
 public class SemaphoneExample {
 
-    //Semaphore 小列子 测试 add 再次测试git
+    //Semaphore 小列子 测试 add
     public static void main(String[] args) {
         ExecutorService executorService = Executors.newCachedThreadPool();
         Semaphore sm = new Semaphore(5);
