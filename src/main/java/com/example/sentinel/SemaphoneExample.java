@@ -7,7 +7,7 @@ import java.util.concurrent.Semaphore;
 
 public class SemaphoneExample {
 
-    //Semaphore 小列子  nihao wo shi yj 你是谁
+    //Semaphore 小列子  nihao wo shi yj 你是谁 我是jj
     public static void main(String[] args) {
         ExecutorService executorService = Executors.newCachedThreadPool();
         Semaphore sm = new Semaphore(5);
